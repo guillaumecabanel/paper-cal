@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Cell
-  WIDTH = 14
+  WIDTH = 13
   HEIGHT = 4
 
   attr_accessor :position, :row_position, :content
