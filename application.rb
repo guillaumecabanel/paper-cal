@@ -5,9 +5,9 @@ require "active_support"
 require "active_support/core_ext"
 require "sinatra"
 
-require_relative "cell"
-require_relative "row"
-require_relative "month"
+require_relative "lib/cell"
+require_relative "lib/row"
+require_relative "lib/month"
 
 get "/" do
   headers "Content-Type" => "text/plain, charset=utf-8"
